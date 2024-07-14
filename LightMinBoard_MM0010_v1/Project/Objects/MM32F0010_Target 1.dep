@@ -1,0 +1,575 @@
+Dependencies for Project 'MM32F0010', Target 'Target 1': (DO NOT MODIFY !)
+F (..\User\src\init.c)(0x6683F630)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\init.o --omf_browse .\objects\init.crf --depend .\objects\init.d)
+I (..\User\inc\AllFile.h)(0x66829B37)
+I (..\User\inc\init.h)(0x668292E9)
+I (..\User\inc\uart.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\User\inc\io.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_gpio.h)(0x668292E9)
+I (..\Device\Include\reg_gpio.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_uart.h)(0x668292E9)
+I (..\Device\Include\reg_uart.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_rcc.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_misc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_tim.h)(0x668292E9)
+I (..\Device\Include\reg_tim.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_spi.h)(0x668292E9)
+I (..\Device\Include\reg_spi.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_adc.h)(0x668292E9)
+I (..\User\inc\irq.h)(0x668292E9)
+I (..\User\inc\adc.h)(0x66829815)
+I (..\User\inc\key.h)(0x66829EDB)
+I (..\User\inc\ws2812.h)(0x66829AD3)
+I (..\Device\Include\mm32_device.h)(0x668292E9)
+I (..\Device\Include\mm32_reg.h)(0x668292E9)
+I (..\Device\Include\reg_crc.h)(0x668292E9)
+I (..\Device\Include\reg_dbg.h)(0x668292E9)
+I (..\Device\Include\reg_exti.h)(0x668292E9)
+I (..\Device\Include\reg_flash.h)(0x668292E9)
+I (..\Device\Include\reg_i2c.h)(0x668292E9)
+I (..\Device\Include\reg_iwdg.h)(0x668292E9)
+I (..\Device\Include\reg_pwr.h)(0x668292E9)
+I (..\Device\Include\reg_syscfg.h)(0x668292E9)
+I (..\Device\Include\reg_wwdg.h)(0x668292E9)
+I (..\Device\Include\mm32_reg_redefine_v1.h)(0x668292E9)
+I (..\User\inc\uart2.h)(0x668292E9)
+F (..\User\src\io.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\io.o --omf_browse .\objects\io.crf --depend .\objects\io.d)
+I (..\User\inc\AllFile.h)(0x66829B37)
+I (..\User\inc\init.h)(0x668292E9)
+I (..\User\inc\uart.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\User\inc\io.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_gpio.h)(0x668292E9)
+I (..\Device\Include\reg_gpio.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_uart.h)(0x668292E9)
+I (..\Device\Include\reg_uart.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_rcc.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_misc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_tim.h)(0x668292E9)
+I (..\Device\Include\reg_tim.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_spi.h)(0x668292E9)
+I (..\Device\Include\reg_spi.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_adc.h)(0x668292E9)
+I (..\User\inc\irq.h)(0x668292E9)
+I (..\User\inc\adc.h)(0x66829815)
+I (..\User\inc\key.h)(0x66829EDB)
+I (..\User\inc\ws2812.h)(0x66829AD3)
+I (..\Device\Include\mm32_device.h)(0x668292E9)
+I (..\Device\Include\mm32_reg.h)(0x668292E9)
+I (..\Device\Include\reg_crc.h)(0x668292E9)
+I (..\Device\Include\reg_dbg.h)(0x668292E9)
+I (..\Device\Include\reg_exti.h)(0x668292E9)
+I (..\Device\Include\reg_flash.h)(0x668292E9)
+I (..\Device\Include\reg_i2c.h)(0x668292E9)
+I (..\Device\Include\reg_iwdg.h)(0x668292E9)
+I (..\Device\Include\reg_pwr.h)(0x668292E9)
+I (..\Device\Include\reg_syscfg.h)(0x668292E9)
+I (..\Device\Include\reg_wwdg.h)(0x668292E9)
+I (..\Device\Include\mm32_reg_redefine_v1.h)(0x668292E9)
+I (..\User\inc\uart2.h)(0x668292E9)
+F (..\User\src\main.c)(0x6682B132)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\User\inc\AllFile.h)(0x66829B37)
+I (..\User\inc\init.h)(0x668292E9)
+I (..\User\inc\uart.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\User\inc\io.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_gpio.h)(0x668292E9)
+I (..\Device\Include\reg_gpio.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_uart.h)(0x668292E9)
+I (..\Device\Include\reg_uart.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_rcc.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_misc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_tim.h)(0x668292E9)
+I (..\Device\Include\reg_tim.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_spi.h)(0x668292E9)
+I (..\Device\Include\reg_spi.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_adc.h)(0x668292E9)
+I (..\User\inc\irq.h)(0x668292E9)
+I (..\User\inc\adc.h)(0x66829815)
+I (..\User\inc\key.h)(0x66829EDB)
+I (..\User\inc\ws2812.h)(0x66829AD3)
+I (..\Device\Include\mm32_device.h)(0x668292E9)
+I (..\Device\Include\mm32_reg.h)(0x668292E9)
+I (..\Device\Include\reg_crc.h)(0x668292E9)
+I (..\Device\Include\reg_dbg.h)(0x668292E9)
+I (..\Device\Include\reg_exti.h)(0x668292E9)
+I (..\Device\Include\reg_flash.h)(0x668292E9)
+I (..\Device\Include\reg_i2c.h)(0x668292E9)
+I (..\Device\Include\reg_iwdg.h)(0x668292E9)
+I (..\Device\Include\reg_pwr.h)(0x668292E9)
+I (..\Device\Include\reg_syscfg.h)(0x668292E9)
+I (..\Device\Include\reg_wwdg.h)(0x668292E9)
+I (..\Device\Include\mm32_reg_redefine_v1.h)(0x668292E9)
+I (..\User\inc\uart2.h)(0x668292E9)
+F (..\User\src\uart.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (..\User\inc\AllFile.h)(0x66829B37)
+I (..\User\inc\init.h)(0x668292E9)
+I (..\User\inc\uart.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\User\inc\io.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_gpio.h)(0x668292E9)
+I (..\Device\Include\reg_gpio.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_uart.h)(0x668292E9)
+I (..\Device\Include\reg_uart.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_rcc.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_misc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_tim.h)(0x668292E9)
+I (..\Device\Include\reg_tim.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_spi.h)(0x668292E9)
+I (..\Device\Include\reg_spi.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_adc.h)(0x668292E9)
+I (..\User\inc\irq.h)(0x668292E9)
+I (..\User\inc\adc.h)(0x66829815)
+I (..\User\inc\key.h)(0x66829EDB)
+I (..\User\inc\ws2812.h)(0x66829AD3)
+I (..\Device\Include\mm32_device.h)(0x668292E9)
+I (..\Device\Include\mm32_reg.h)(0x668292E9)
+I (..\Device\Include\reg_crc.h)(0x668292E9)
+I (..\Device\Include\reg_dbg.h)(0x668292E9)
+I (..\Device\Include\reg_exti.h)(0x668292E9)
+I (..\Device\Include\reg_flash.h)(0x668292E9)
+I (..\Device\Include\reg_i2c.h)(0x668292E9)
+I (..\Device\Include\reg_iwdg.h)(0x668292E9)
+I (..\Device\Include\reg_pwr.h)(0x668292E9)
+I (..\Device\Include\reg_syscfg.h)(0x668292E9)
+I (..\Device\Include\reg_wwdg.h)(0x668292E9)
+I (..\Device\Include\mm32_reg_redefine_v1.h)(0x668292E9)
+I (..\User\inc\uart2.h)(0x668292E9)
+F (..\User\src\irq.c)(0x6683F665)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\irq.o --omf_browse .\objects\irq.crf --depend .\objects\irq.d)
+I (..\User\inc\AllFile.h)(0x66829B37)
+I (..\User\inc\init.h)(0x668292E9)
+I (..\User\inc\uart.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\User\inc\io.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_gpio.h)(0x668292E9)
+I (..\Device\Include\reg_gpio.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_uart.h)(0x668292E9)
+I (..\Device\Include\reg_uart.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_rcc.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_misc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_tim.h)(0x668292E9)
+I (..\Device\Include\reg_tim.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_spi.h)(0x668292E9)
+I (..\Device\Include\reg_spi.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_adc.h)(0x668292E9)
+I (..\User\inc\irq.h)(0x668292E9)
+I (..\User\inc\adc.h)(0x66829815)
+I (..\User\inc\key.h)(0x66829EDB)
+I (..\User\inc\ws2812.h)(0x66829AD3)
+I (..\Device\Include\mm32_device.h)(0x668292E9)
+I (..\Device\Include\mm32_reg.h)(0x668292E9)
+I (..\Device\Include\reg_crc.h)(0x668292E9)
+I (..\Device\Include\reg_dbg.h)(0x668292E9)
+I (..\Device\Include\reg_exti.h)(0x668292E9)
+I (..\Device\Include\reg_flash.h)(0x668292E9)
+I (..\Device\Include\reg_i2c.h)(0x668292E9)
+I (..\Device\Include\reg_iwdg.h)(0x668292E9)
+I (..\Device\Include\reg_pwr.h)(0x668292E9)
+I (..\Device\Include\reg_syscfg.h)(0x668292E9)
+I (..\Device\Include\reg_wwdg.h)(0x668292E9)
+I (..\Device\Include\mm32_reg_redefine_v1.h)(0x668292E9)
+I (..\User\inc\uart2.h)(0x668292E9)
+F (..\User\src\uart2.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\uart2.o --omf_browse .\objects\uart2.crf --depend .\objects\uart2.d)
+I (..\User\inc\AllFile.h)(0x66829B37)
+I (..\User\inc\init.h)(0x668292E9)
+I (..\User\inc\uart.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\User\inc\io.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_gpio.h)(0x668292E9)
+I (..\Device\Include\reg_gpio.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_uart.h)(0x668292E9)
+I (..\Device\Include\reg_uart.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_rcc.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_misc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_tim.h)(0x668292E9)
+I (..\Device\Include\reg_tim.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_spi.h)(0x668292E9)
+I (..\Device\Include\reg_spi.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_adc.h)(0x668292E9)
+I (..\User\inc\irq.h)(0x668292E9)
+I (..\User\inc\adc.h)(0x66829815)
+I (..\User\inc\key.h)(0x66829EDB)
+I (..\User\inc\ws2812.h)(0x66829AD3)
+I (..\Device\Include\mm32_device.h)(0x668292E9)
+I (..\Device\Include\mm32_reg.h)(0x668292E9)
+I (..\Device\Include\reg_crc.h)(0x668292E9)
+I (..\Device\Include\reg_dbg.h)(0x668292E9)
+I (..\Device\Include\reg_exti.h)(0x668292E9)
+I (..\Device\Include\reg_flash.h)(0x668292E9)
+I (..\Device\Include\reg_i2c.h)(0x668292E9)
+I (..\Device\Include\reg_iwdg.h)(0x668292E9)
+I (..\Device\Include\reg_pwr.h)(0x668292E9)
+I (..\Device\Include\reg_syscfg.h)(0x668292E9)
+I (..\Device\Include\reg_wwdg.h)(0x668292E9)
+I (..\Device\Include\mm32_reg_redefine_v1.h)(0x668292E9)
+I (..\User\inc\uart2.h)(0x668292E9)
+F (..\User\inc\uart2.h)(0x668292E9)()
+F (..\User\src\adc.c)(0x66829E63)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (..\User\inc\AllFile.h)(0x66829B37)
+I (..\User\inc\init.h)(0x668292E9)
+I (..\User\inc\uart.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\User\inc\io.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_gpio.h)(0x668292E9)
+I (..\Device\Include\reg_gpio.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_uart.h)(0x668292E9)
+I (..\Device\Include\reg_uart.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_rcc.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_misc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_tim.h)(0x668292E9)
+I (..\Device\Include\reg_tim.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_spi.h)(0x668292E9)
+I (..\Device\Include\reg_spi.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_adc.h)(0x668292E9)
+I (..\User\inc\irq.h)(0x668292E9)
+I (..\User\inc\adc.h)(0x66829815)
+I (..\User\inc\key.h)(0x66829EDB)
+I (..\User\inc\ws2812.h)(0x66829AD3)
+I (..\Device\Include\mm32_device.h)(0x668292E9)
+I (..\Device\Include\mm32_reg.h)(0x668292E9)
+I (..\Device\Include\reg_crc.h)(0x668292E9)
+I (..\Device\Include\reg_dbg.h)(0x668292E9)
+I (..\Device\Include\reg_exti.h)(0x668292E9)
+I (..\Device\Include\reg_flash.h)(0x668292E9)
+I (..\Device\Include\reg_i2c.h)(0x668292E9)
+I (..\Device\Include\reg_iwdg.h)(0x668292E9)
+I (..\Device\Include\reg_pwr.h)(0x668292E9)
+I (..\Device\Include\reg_syscfg.h)(0x668292E9)
+I (..\Device\Include\reg_wwdg.h)(0x668292E9)
+I (..\Device\Include\mm32_reg_redefine_v1.h)(0x668292E9)
+I (..\User\inc\uart2.h)(0x668292E9)
+F (..\User\src\key.c)(0x6682AF37)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (..\User\inc\AllFile.h)(0x66829B37)
+I (..\User\inc\init.h)(0x668292E9)
+I (..\User\inc\uart.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\User\inc\io.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_gpio.h)(0x668292E9)
+I (..\Device\Include\reg_gpio.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_uart.h)(0x668292E9)
+I (..\Device\Include\reg_uart.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_rcc.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_misc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_tim.h)(0x668292E9)
+I (..\Device\Include\reg_tim.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_spi.h)(0x668292E9)
+I (..\Device\Include\reg_spi.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_adc.h)(0x668292E9)
+I (..\User\inc\irq.h)(0x668292E9)
+I (..\User\inc\adc.h)(0x66829815)
+I (..\User\inc\key.h)(0x66829EDB)
+I (..\User\inc\ws2812.h)(0x66829AD3)
+I (..\Device\Include\mm32_device.h)(0x668292E9)
+I (..\Device\Include\mm32_reg.h)(0x668292E9)
+I (..\Device\Include\reg_crc.h)(0x668292E9)
+I (..\Device\Include\reg_dbg.h)(0x668292E9)
+I (..\Device\Include\reg_exti.h)(0x668292E9)
+I (..\Device\Include\reg_flash.h)(0x668292E9)
+I (..\Device\Include\reg_i2c.h)(0x668292E9)
+I (..\Device\Include\reg_iwdg.h)(0x668292E9)
+I (..\Device\Include\reg_pwr.h)(0x668292E9)
+I (..\Device\Include\reg_syscfg.h)(0x668292E9)
+I (..\Device\Include\reg_wwdg.h)(0x668292E9)
+I (..\Device\Include\mm32_reg_redefine_v1.h)(0x668292E9)
+I (..\User\inc\uart2.h)(0x668292E9)
+F (..\User\src\ws2812.c)(0x66829AD9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\ws2812.o --omf_browse .\objects\ws2812.crf --depend .\objects\ws2812.d)
+I (..\User\inc\AllFile.h)(0x66829B37)
+I (..\User\inc\init.h)(0x668292E9)
+I (..\User\inc\uart.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\User\inc\io.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_gpio.h)(0x668292E9)
+I (..\Device\Include\reg_gpio.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_uart.h)(0x668292E9)
+I (..\Device\Include\reg_uart.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_rcc.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_misc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_tim.h)(0x668292E9)
+I (..\Device\Include\reg_tim.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_spi.h)(0x668292E9)
+I (..\Device\Include\reg_spi.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_adc.h)(0x668292E9)
+I (..\User\inc\irq.h)(0x668292E9)
+I (..\User\inc\adc.h)(0x66829815)
+I (..\User\inc\key.h)(0x66829EDB)
+I (..\User\inc\ws2812.h)(0x66829AD3)
+I (..\Device\Include\mm32_device.h)(0x668292E9)
+I (..\Device\Include\mm32_reg.h)(0x668292E9)
+I (..\Device\Include\reg_crc.h)(0x668292E9)
+I (..\Device\Include\reg_dbg.h)(0x668292E9)
+I (..\Device\Include\reg_exti.h)(0x668292E9)
+I (..\Device\Include\reg_flash.h)(0x668292E9)
+I (..\Device\Include\reg_i2c.h)(0x668292E9)
+I (..\Device\Include\reg_iwdg.h)(0x668292E9)
+I (..\Device\Include\reg_pwr.h)(0x668292E9)
+I (..\Device\Include\reg_syscfg.h)(0x668292E9)
+I (..\Device\Include\reg_wwdg.h)(0x668292E9)
+I (..\Device\Include\mm32_reg_redefine_v1.h)(0x668292E9)
+I (..\User\inc\uart2.h)(0x668292E9)
+F (..\Device\Source\startup_mm32f0010_keil.s)(0x668292E9)(--cpu Cortex-M0 -g --apcs=interwork -I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 515" --pd "MM32F0010A1T SETA 1"--list .\listings\startup_mm32f0010_keil.lst --xref -o .\objects\startup_mm32f0010_keil.o --depend .\objects\startup_mm32f0010_keil.d)
+F (..\Device\Source\system_mm32f0010.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\system_mm32f0010.o --omf_browse .\objects\system_mm32f0010.crf --depend .\objects\system_mm32f0010.d)
+I (..\Device\Include\mm32_device.h)(0x668292E9)
+I (..\Device\Include\mm32_reg.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\Include\types.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\Include\reg_crc.h)(0x668292E9)
+I (..\Device\Include\reg_dbg.h)(0x668292E9)
+I (..\Device\Include\reg_exti.h)(0x668292E9)
+I (..\Device\Include\reg_flash.h)(0x668292E9)
+I (..\Device\Include\reg_gpio.h)(0x668292E9)
+I (..\Device\Include\reg_i2c.h)(0x668292E9)
+I (..\Device\Include\reg_iwdg.h)(0x668292E9)
+I (..\Device\Include\reg_pwr.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+I (..\Device\Include\reg_spi.h)(0x668292E9)
+I (..\Device\Include\reg_syscfg.h)(0x668292E9)
+I (..\Device\Include\reg_tim.h)(0x668292E9)
+I (..\Device\Include\reg_uart.h)(0x668292E9)
+I (..\Device\Include\reg_wwdg.h)(0x668292E9)
+I (..\Device\Include\mm32_reg_redefine_v1.h)(0x668292E9)
+F (..\Device\HAL_Lib\Src\hal_adc.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\hal_adc.o --omf_browse .\objects\hal_adc.crf --depend .\objects\hal_adc.d)
+I (..\Device\HAL_Lib\Inc\hal_adc.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_rcc.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+F (..\Device\HAL_Lib\Src\hal_crc.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\hal_crc.o --omf_browse .\objects\hal_crc.crf --depend .\objects\hal_crc.d)
+I (..\Device\HAL_Lib\Inc\hal_crc.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_crc.h)(0x668292E9)
+F (..\Device\HAL_Lib\Src\hal_dbg.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\hal_dbg.o --omf_browse .\objects\hal_dbg.crf --depend .\objects\hal_dbg.d)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\HAL_Lib\Inc\hal_dbg.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_dbg.h)(0x668292E9)
+F (..\Device\HAL_Lib\Src\hal_exti.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\hal_exti.o --omf_browse .\objects\hal_exti.crf --depend .\objects\hal_exti.d)
+I (..\Device\HAL_Lib\Inc\hal_exti.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_exti.h)(0x668292E9)
+F (..\Device\HAL_Lib\Src\hal_flash.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\hal_flash.o --omf_browse .\objects\hal_flash.crf --depend .\objects\hal_flash.d)
+I (..\Device\HAL_Lib\Inc\hal_flash.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_flash.h)(0x668292E9)
+F (..\Device\HAL_Lib\Src\hal_gpio.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\hal_gpio.o --omf_browse .\objects\hal_gpio.crf --depend .\objects\hal_gpio.d)
+I (..\Device\HAL_Lib\Inc\hal_gpio.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\Include\reg_gpio.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_rcc.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+F (..\Device\HAL_Lib\Src\hal_iwdg.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\hal_iwdg.o --omf_browse .\objects\hal_iwdg.crf --depend .\objects\hal_iwdg.d)
+I (..\Device\HAL_Lib\Inc\hal_iwdg.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\Include\reg_iwdg.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+F (..\Device\HAL_Lib\Src\hal_misc.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\hal_misc.o --omf_browse .\objects\hal_misc.crf --depend .\objects\hal_misc.d)
+I (..\Device\HAL_Lib\Inc\hal_misc.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+F (..\Device\HAL_Lib\Src\hal_pwr.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\hal_pwr.o --omf_browse .\objects\hal_pwr.crf --depend .\objects\hal_pwr.d)
+I (..\Device\HAL_Lib\Inc\hal_pwr.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\Include\reg_pwr.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_rcc.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+F (..\Device\HAL_Lib\Src\hal_rcc.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\hal_rcc.o --omf_browse .\objects\hal_rcc.crf --depend .\objects\hal_rcc.d)
+I (..\Device\HAL_Lib\Inc\hal_rcc.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+F (..\Device\HAL_Lib\Src\hal_uart.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\hal_uart.o --omf_browse .\objects\hal_uart.crf --depend .\objects\hal_uart.d)
+I (..\Device\HAL_Lib\Inc\hal_rcc.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_uart.h)(0x668292E9)
+I (..\Device\Include\reg_uart.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_gpio.h)(0x668292E9)
+I (..\Device\Include\reg_gpio.h)(0x668292E9)
+F (..\Device\HAL_Lib\Src\hal_uid.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\hal_uid.o --omf_browse .\objects\hal_uid.crf --depend .\objects\hal_uid.d)
+I (..\Device\HAL_Lib\Inc\hal_uid.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+F (..\Device\HAL_Lib\Src\hal_ver.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\hal_ver.o --omf_browse .\objects\hal_ver.crf --depend .\objects\hal_ver.d)
+I (..\Device\HAL_Lib\Inc\hal_ver.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\Include\types.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_dbg.h)(0x668292E9)
+F (..\Device\HAL_Lib\Src\hal_wwdg.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\hal_wwdg.o --omf_browse .\objects\hal_wwdg.crf --depend .\objects\hal_wwdg.d)
+I (..\Device\HAL_Lib\Inc\hal_wwdg.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\Include\reg_wwdg.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_rcc.h)(0x668292E9)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+F (..\Device\HAL_Lib\Src\hal_tim.c)(0x668292E9)(--c99 -c --cpu Cortex-M0 -g -W -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Device\Include -I..\Device\HAL_Lib\Inc -I..\User\inc-I D:\keilcode\PROJECT\LightMinBoard\LightMinBoard_MM0010_v1\Project\RTE-I D:\Keil_v5\ARM\PACK\MindMotion\MM32F0010_DFP\1.0.6\Device\MM32F0010\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMM32F0010A1T-o .\objects\hal_tim.o --omf_browse .\objects\hal_tim.crf --depend .\objects\hal_tim.d)
+I (..\Device\HAL_Lib\Inc\hal_rcc.h)(0x668292E9)
+I (..\Device\Include\types.h)(0x668292E9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\Device\Include\reg_common.h)(0x668292E9)
+I (..\CMSIS\core_cm0.h)(0x668292E9)
+I (..\CMSIS\cmsis_compiler.h)(0x668292E9)
+I (..\CMSIS\cmsis_armcc.h)(0x668292E9)
+I (..\Device\Include\reg_adc.h)(0x668292E9)
+I (..\Device\Include\reg_rcc.h)(0x668292E9)
+I (..\Device\HAL_Lib\Inc\hal_tim.h)(0x668292E9)
+I (..\Device\Include\reg_tim.h)(0x668292E9)

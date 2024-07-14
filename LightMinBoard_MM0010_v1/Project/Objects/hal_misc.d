@@ -1,0 +1,9 @@
+.\objects\hal_misc.o: ..\Device\HAL_Lib\Src\hal_misc.c
+.\objects\hal_misc.o: ..\Device\HAL_Lib\Inc\hal_misc.h
+.\objects\hal_misc.o: ..\Device\Include\types.h
+.\objects\hal_misc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hal_misc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\hal_misc.o: ..\Device\Include\reg_common.h
+.\objects\hal_misc.o: ..\CMSIS\core_cm0.h
+.\objects\hal_misc.o: ..\CMSIS\cmsis_compiler.h
+.\objects\hal_misc.o: ..\CMSIS\cmsis_armcc.h

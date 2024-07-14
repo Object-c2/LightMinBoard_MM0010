@@ -1,0 +1,13 @@
+.\objects\hal_pwr.o: ..\Device\HAL_Lib\Src\hal_pwr.c
+.\objects\hal_pwr.o: ..\Device\HAL_Lib\Inc\hal_pwr.h
+.\objects\hal_pwr.o: ..\Device\Include\types.h
+.\objects\hal_pwr.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hal_pwr.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\hal_pwr.o: ..\Device\Include\reg_pwr.h
+.\objects\hal_pwr.o: ..\Device\HAL_Lib\Inc\hal_rcc.h
+.\objects\hal_pwr.o: ..\Device\Include\reg_common.h
+.\objects\hal_pwr.o: ..\CMSIS\core_cm0.h
+.\objects\hal_pwr.o: ..\CMSIS\cmsis_compiler.h
+.\objects\hal_pwr.o: ..\CMSIS\cmsis_armcc.h
+.\objects\hal_pwr.o: ..\Device\Include\reg_adc.h
+.\objects\hal_pwr.o: ..\Device\Include\reg_rcc.h

@@ -1,0 +1,10 @@
+.\objects\hal_ver.o: ..\Device\HAL_Lib\Src\hal_ver.c
+.\objects\hal_ver.o: ..\Device\HAL_Lib\Inc\hal_ver.h
+.\objects\hal_ver.o: ..\Device\Include\reg_common.h
+.\objects\hal_ver.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hal_ver.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\hal_ver.o: ..\Device\Include\types.h
+.\objects\hal_ver.o: ..\CMSIS\core_cm0.h
+.\objects\hal_ver.o: ..\CMSIS\cmsis_compiler.h
+.\objects\hal_ver.o: ..\CMSIS\cmsis_armcc.h
+.\objects\hal_ver.o: ..\Device\Include\reg_dbg.h

@@ -1,0 +1,13 @@
+.\objects\hal_i2c.o: ..\Device\HAL_Lib\Src\hal_i2c.c
+.\objects\hal_i2c.o: ..\Device\HAL_Lib\Inc\hal_i2c.h
+.\objects\hal_i2c.o: ..\Device\Include\types.h
+.\objects\hal_i2c.o: D:\KeilMDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hal_i2c.o: D:\KeilMDK\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\hal_i2c.o: ..\Device\Include\reg_i2c.h
+.\objects\hal_i2c.o: ..\Device\HAL_Lib\Inc\hal_rcc.h
+.\objects\hal_i2c.o: ..\Device\Include\reg_common.h
+.\objects\hal_i2c.o: ..\CMSIS\core_cm0.h
+.\objects\hal_i2c.o: ..\CMSIS\cmsis_compiler.h
+.\objects\hal_i2c.o: ..\CMSIS\cmsis_armcc.h
+.\objects\hal_i2c.o: ..\Device\Include\reg_adc.h
+.\objects\hal_i2c.o: ..\Device\Include\reg_rcc.h

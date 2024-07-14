@@ -1,0 +1,14 @@
+#ifndef _ALLFILE_H_
+#define _ALLFILE_H_
+
+#include "init.h"
+#include "uart.h"
+#include "io.h"
+#include "hal_gpio.h"
+#include "hal_uart.h"
+#include "hal_rcc.h"
+#include "hal_misc.h"
+#include "hal_tim.h"
+#include "mm32_reg_redefine_v1.h"
+
+#endif

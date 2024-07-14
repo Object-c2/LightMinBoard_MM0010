@@ -1,0 +1,33 @@
+#include "AllFile.h"
+
+volatile u8 fGlobal_1ms = 0;
+
+void TIM1_BRK_UP_TRG_COM_IRQHandler(void)     //64us进入一次
+{
+	static u8 U8_1msCnt = 0,U8TailCnt = 0;
+	if (TIM_GetITStatus(TIM1, TIM_IT_Update) != RESET)
+	{
+		
+        TIM_ClearITPendingBit(TIM1, TIM_IT_Update);
+		if(U8TailCnt<100)
+		{
+			U8TailCnt++:
+		}
+		else
+		{
+			U8TailCnt = 0;
+		}
+		if(U8TailCnt<U8Global_TailPeriod)
+		{
+			NightLamp_ON;
+		}
+		else
+		{
+			NightLamp_OFF;
+		}
+		if(U8_1msCnt<16)
+			U8_1msCnt++;
+		else
+			fGlobal_1ms = 1;
+	}
+}

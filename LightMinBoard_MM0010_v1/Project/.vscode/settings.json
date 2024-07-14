@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "allfile.h": "c",
+        "key.h": "c",
+        "adc.h": "c",
+        "ws2812.h": "c"
+    }
+}

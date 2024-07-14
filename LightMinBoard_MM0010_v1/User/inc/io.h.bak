@@ -1,0 +1,22 @@
+#ifndef __IO_H_
+#define __IO_H_
+
+
+
+#define TurnLeft_IN     (GPIOA->IDR>>9&0x01)
+#define TurnRight_IN    (GPIOA->IDR>>8&0x01)
+
+#define TurnLeft_ON     (GPIOA->BSRR |= (1<<15))
+#define TurnLeft_OFF    (GPIOA->BRR |= (1<<15))
+
+#define TurnRight_ON     (GPIOA->BSRR |= (1<<2))
+#define TurnRight_OFF    (GPIOA->BRR |= (1<<2))
+
+#define NightLamp_ON     (GPIOA->BSRR |= (1<<10))
+#define NightLamp_OFF    (GPIOA->BRR |= (1<<10))
+
+extern volatile u8 fGlobal_NightLight;
+
+extern void Lamp_handle(void);
+
+#endif

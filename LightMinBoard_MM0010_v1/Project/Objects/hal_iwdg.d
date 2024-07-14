@@ -1,0 +1,10 @@
+.\objects\hal_iwdg.o: ..\Device\HAL_Lib\Src\hal_iwdg.c
+.\objects\hal_iwdg.o: ..\Device\HAL_Lib\Inc\hal_iwdg.h
+.\objects\hal_iwdg.o: ..\Device\Include\types.h
+.\objects\hal_iwdg.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hal_iwdg.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\hal_iwdg.o: ..\Device\Include\reg_iwdg.h
+.\objects\hal_iwdg.o: ..\Device\Include\reg_common.h
+.\objects\hal_iwdg.o: ..\CMSIS\core_cm0.h
+.\objects\hal_iwdg.o: ..\CMSIS\cmsis_compiler.h
+.\objects\hal_iwdg.o: ..\CMSIS\cmsis_armcc.h

@@ -1,0 +1,81 @@
+#include "AllFile.h"
+
+
+volatile u8 U8Global_TailPeriod = 0;
+
+/* -------------------------------- begin  -------------------------------- */
+/**
+  * @Name    Lamp_handle
+  * @brief   灯光处理
+  * @param   None
+  * @retval
+  * @author  
+  * @Data    2023-03-13
+  * 1. ...
+  * <modify staff>:
+  * <data>        :
+  * <description> :
+  * 2. ...
+ **/
+/* -------------------------------- end -------------------------------- */
+
+void Lamp_handle(void)
+{
+	static u8 U8LeftCnt = 0,U8RightCnt = 0,U8TimeCnt = 0;
+	if((TurnLeft_IN == 0)&&(TurnRight_IN == 0))    //双闪灯
+	{
+		if(U8TimeCnt<8)
+			U8TimeCnt++;
+		else
+		{
+			TurnLeft_ON;
+			TurnRight_ON;
+		}
+	}
+	//左转向灯
+	else if(TurnLeft_IN == 0)
+	{
+		if(U8LeftCnt<8)
+			U8LeftCnt++;
+		else
+		{
+			TurnLeft_ON;
+			TurnLeft_OFF;
+			U8LeftCnt = 0;
+		}
+	}
+	//右转向灯
+	else if(TurnRight_IN == 0)
+	{
+		if(U8RightCnt<8)
+			U8RightCnt++;
+		else
+		{
+			TurnRight_ON;
+			TurnRight_OFF;
+			U8RightCnt = 0;
+		}
+	}
+	else   //关闭灯光
+	{
+		TurnLeft_OFF;
+		TurnRight_OFF;
+	}
+	
+	
+	if(fGlobal_Break)
+	{
+		U8Global_TailPeriod = 100;
+	}
+	else if(fGlobal_FrontLampOn)
+	{
+		U8Global_TailPeriod = 20;  //20
+	}
+	else
+	{
+		U8Global_TailPeriod = 0;
+	}
+	
+
+
+}
